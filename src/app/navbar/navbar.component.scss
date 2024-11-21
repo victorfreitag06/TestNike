@@ -1,0 +1,20 @@
+.tiltulo{
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.ti{
+    display: flex;
+    gap: 15px;
+}
+.sla{
+    color: #ffffff52;
+    font-family: Courier New, monospace;
+    font-size: 15px;
+    display: flex;
+}

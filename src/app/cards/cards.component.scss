@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    block-size: 80dvh;
+    flex-wrap: wrap;
+}
+li{
+    background-color: #282422;
+    color: white;
+    padding: 30px;
+    width: 370px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px, 4px, 8px rgb(0, 0, 0, 0.2);
+    display: flex;
+}
+li img{
+    inline-size: 150px;
+    block-size: 150px;
+}
+
+button{
+    background-color: #FF6452;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+
+.produto-info{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    row-gap: 15px;
+    justify-content: space-between;
+}
+.cardbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.bandeira{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(to bottom, #3D5171, #76403B);
+    border-radius: 5px;
+}
+.bandeira img{
+    width: 85%;
+    height: 85%;
+}
+.bandeira::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom: 50px solid #282422;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+}
+.coracao{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom, #3D5171, #76403B);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 200px;
+    z-index: 0;
+    border: 4px solid #282422;
+}

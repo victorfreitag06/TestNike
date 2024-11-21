@@ -1,0 +1,20 @@
+<div class="product-list">
+    <ul>
+        <li *ngFor="let product of products">
+            <div class="bandeira">
+                <img src="{{product.image}}" alt="">
+                <div class="coracao">❤️</div>
+            </div>
+            <div class="produto-info">
+                <div class="title-desc">
+                    <h3 style="font-size: 25px;">{{product.name}}</h3>
+                    <span style="font-size: 15px; color: #ffffff52; font-weight: 1; font-family: Courier New, monospace;">{{product.desc}}</span>
+                </div>
+                <div class="cardbottom">
+                    <p style="font-size: 20px;">{{product.price | currency:'$'}}</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
